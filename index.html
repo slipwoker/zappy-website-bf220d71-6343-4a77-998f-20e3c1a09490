@@ -467,6 +467,234 @@
   }
 }
 </style>
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.home-hero-section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: visible;
+  background-color: #2A1F3E;
+  color: var(--text-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  padding-bottom: 120px;
+}
+
+/* Background Image Layer */
+.home-hero-section .home-hero-bg-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.home-hero-section .home-hero-bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Scrim Overlay for Text Legibility */
+.home-hero-section .home-hero-scrim {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
+  background: linear-gradient(180deg, rgba(40,120,160,0.75) 0%, rgba(248,199,144,0.45) 48%, rgba(14,27,63,0.85) 100%);
+}
+
+/* Text Overlay Group */
+.home-hero-section .home-hero-content {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.home-hero-section .home-hero-text-container {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Headline */
+.home-hero-section .home-hero-headline {
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 64px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  color: var(--text-light);
+  margin: 0 0 24px 0;
+  text-shadow: 0 4px 20px rgba(14,27,63,0.45), 0 2px 8px rgba(0,0,0,0.3);
+}
+
+/* Subtitle */
+.home-hero-section .home-hero-subtitle {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.6;
+  color: var(--text-light);
+  margin: 0 0 40px 0;
+  text-shadow: 0 2px 12px rgba(14,27,63,0.4), 0 1px 4px rgba(0,0,0,0.25);
+  opacity: 0.95;
+}
+
+/* CTA Group */
+.home-hero-section .home-hero-cta-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 48px;
+}
+
+/* Button Base */
+.home-hero-section .home-hero-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 32px;
+  border-radius: 999px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  transition: transform 220ms cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 220ms cubic-bezier(0.2, 0.8, 0.2, 1), background-color 220ms cubic-bezier(0.2, 0.8, 0.2, 1), border-color 220ms cubic-bezier(0.2, 0.8, 0.2, 1);
+  cursor: pointer;
+  border: 0;
+  white-space: nowrap;
+}
+
+/* Primary Button */
+.home-hero-section .home-hero-btn-primary {
+  background: var(--primary);
+  color: var(--text-light);
+  box-shadow: 0 10px 28px rgba(0,166,166,0.35), 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.home-hero-section .home-hero-btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 36px rgba(0,166,166,0.45), 0 6px 16px rgba(0,0,0,0.2);
+}
+
+/* Secondary Button */
+.home-hero-section .home-hero-btn-secondary {
+  background: rgba(255,255,255,0.15);
+  color: var(--text-light);
+  border: 2px solid rgba(255,255,255,0.6);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+.home-hero-section .home-hero-btn-secondary:hover {
+  transform: translateY(-3px);
+  background: rgba(255,255,255,0.25);
+  border-color: rgba(255,255,255,0.8);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+}
+
+/* Bottom Divider */
+.home-hero-section .home-hero-divider-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  pointer-events: none;
+  z-index: 5;
+  overflow: visible;
+}
+
+.home-hero-section .home-hero-divider-wrapper svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .home-hero-section {
+    min-height: 100vh;
+    padding-top: 100px;
+    padding-bottom: 80px;
+  }
+
+  .home-hero-section .home-hero-content {
+    padding: 0 16px;
+    min-height: calc(100vh - 100px);
+  }
+
+  .home-hero-section .home-hero-headline {
+    font-size: 40px;
+    line-height: 1.15;
+    margin-bottom: 20px;
+  }
+
+  .home-hero-section .home-hero-subtitle {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 32px;
+  }
+
+  .home-hero-section .home-hero-cta-group {
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 36px;
+  }
+
+  .home-hero-section .home-hero-btn {
+    width: 100%;
+    max-width: 320px;
+    padding: 14px 28px;
+    font-size: 15px;
+  }
+
+  .home-hero-section .home-hero-divider-wrapper {
+    height: 80px;
+  }
+}
+
+/* Tablet Responsive */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .home-hero-section .home-hero-headline {
+    font-size: 52px;
+  }
+
+  .home-hero-section .home-hero-subtitle {
+    font-size: 20px;
+  }
+
+  .home-hero-section .home-hero-content {
+    padding: 0 24px;
+  }
+}
+</style>
 <!-- Zappy Analytics -->
 <script>
 (function() {
@@ -789,33 +1017,31 @@
   
   
   <main>
-    <section class="home-hero-section" data-layout-spec="בית-hero" data-hero-type="text-only" data-zappy-section="true" id="zappy-section-1771666091834-1575" style="position: relative; overflow: hidden; background-color: #EAF4FF; --zappy-bg-color: #EAF4FF" data-zappy-bg-type="color" data-zappy-bg-color="#EAF4FF" data-zappy-bg-image="" data-zappy-bg-overlay-color="#000000" data-zappy-bg-overlay-opacity="30" data-zappy-bg-video-type="" data-zappy-bg-video-url="">
+    <section class="home-hero-section" data-layout-spec="בית-hero" data-hero-type="text-only" data-zappy-section="true" id="zappy-section-1771666385244-163" style="position: relative; overflow: hidden; background-color: #EAF4FF; --zappy-bg-color: #EAF4FF" data-zappy-bg-type="color" data-zappy-bg-color="#EAF4FF" data-zappy-bg-image="" data-zappy-bg-overlay-color="#000000" data-zappy-bg-overlay-opacity="30" data-zappy-bg-video-type="" data-zappy-bg-video-url="">
   <!-- Background Image Layer -->
-  <div class="home-hero-bg" style="background-image: url('assets/business-general-hero-upload-1771665487228.webp'); background-size: cover; background-position: center; position: relative; z-index: 2"></div>
-  
+  <div class="home-hero-bg-wrapper" style="position: relative; z-index: 2">
+    <div class="home-hero-bg-image" style="background-image: url('assets/business-general-hero-upload-1771665487228.webp');  background-size: cover; background-position: center;"></div>
+  </div>
+
   <!-- Scrim Overlay for Text Legibility -->
-  <div class="home-hero-scrim" style="display: none" data-zappy-original-bg="hidden"></div>
-  
-  <!-- Content Overlay -->
+  <div class="home-hero-scrim" aria-hidden="true" style="display: none" data-zappy-original-bg="hidden"></div>
+
+  <!-- Text Overlay Group -->
   <div class="home-hero-content" style="position: relative; z-index: 2">
-    <div class="home-hero-text-group">
-      <h1>בריאות כאוסף<br>מעוצב של רגעים</h1>
-      <h3>בהירות, איזון וטקסים יומיומיים שמעצבים את הרווחה שלך</h3>
+    <div class="home-hero-text-container">
+      <h1 class="home-hero-headline">בריאות כאוסף<br>מעוצב של רגעים</h1>
+      <h3 class="home-hero-subtitle">בהירות, איזון וטקסים יומיומיים שמעצבים את הרווחה שלך</h3>
       <div class="home-hero-cta-group">
         <a href="/contact" class="home-hero-btn home-hero-btn-primary">דברו איתנו</a>
         <a href="/collection" class="home-hero-btn home-hero-btn-secondary">גלו את האוסף</a>
       </div>
     </div>
   </div>
-  
-  <!-- Decorative Gradient Orbs -->
-  <div class="home-hero-orb home-hero-orb-1" style="position: relative; z-index: 2"></div>
-  <div class="home-hero-orb home-hero-orb-2" style="position: relative; z-index: 2"></div>
-  
+
   <!-- Bottom Wave Divider -->
   <div class="home-hero-divider-wrapper" style="z-index: 2">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1200 100" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,100 L0,50 Q100,45 200,52 T400,48 Q500,52 600,45 T800,50 Q900,48 1000,52 T1200,50 L1200,100 Z" fill="var(--bg-light)"></path>
+    <svg data-no-icon-edit="true" aria-hidden="true" viewbox="0 0 1440 120" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,120 L0,50 Q180,30 360,50 T720,50 Q900,30 1080,50 T1440,50 L1440,120 Z" fill="var(--bg-light)"></path>
     </svg>
   </div>
 </section>
