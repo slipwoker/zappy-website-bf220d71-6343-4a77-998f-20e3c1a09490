@@ -9122,6 +9122,253 @@ body.accessibility-widget-visible ._access-menu {
   }
 }
 
+/* ═══════════════════════════════════════════════════════════
+   V2 REGENERATED SECTION CSS (בית-hero)
+   Added: 2026-02-21T09:27:24.933Z
+   ═══════════════════════════════════════════════════════════ */
+.home-hero-section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: visible;
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+/* Background Image Layer */
+.home-hero-section .home-hero-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Scrim Overlay - Strong gradient for text legibility */
+.home-hero-section .home-hero-scrim {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
+  background-image: linear-gradient(180deg, rgba(27,31,59,0.75) 0%, rgba(27,31,59,0.85) 50%, rgba(27,31,59,0.9) 100%);
+}
+
+/* Decorative Gradient Orbs */
+.home-hero-section .home-hero-orb {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 0;
+  filter: blur(80px);
+  opacity: 0.35;
+}
+
+.home-hero-section .home-hero-orb-1 {
+  width: 500px;
+  height: 500px;
+  top: -100px;
+  right: 10%;
+  background: radial-gradient(circle, var(--primary) 0%, transparent 70%);
+}
+
+.home-hero-section .home-hero-orb-2 {
+  width: 400px;
+  height: 400px;
+  bottom: 10%;
+  left: 5%;
+  background: radial-gradient(circle, var(--secondary) 0%, transparent 70%);
+}
+
+/* Content Overlay */
+.home-hero-section .home-hero-content {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 24px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.home-hero-section .home-hero-text-group {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Typography - Hero H1 */
+.home-hero-section h1 {
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: var(--text-light);
+  margin: 0 0 24px 0;
+  text-shadow: 0 4px 20px rgba(0,0,0,0.4);
+}
+
+/* Typography - Hero H3 Subtitle */
+.home-hero-section h3 {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.6;
+  color: rgba(255,255,255,0.9);
+  margin: 0 0 40px 0;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.3);
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* CTA Button Group */
+.home-hero-section .home-hero-cta-group {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 48px;
+}
+
+.home-hero-section .home-hero-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 32px;
+  border-radius: 999px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  transition: all 280ms cubic-bezier(0.2, 0.8, 0.2, 1);
+  cursor: pointer;
+  border: 0;
+  white-space: nowrap;
+}
+
+.home-hero-section .home-hero-btn-primary {
+  background: var(--primary);
+  color: var(--text-light);
+  box-shadow: 0 12px 28px rgba(0,166,166,0.35);
+}
+
+.home-hero-section .home-hero-btn-primary:hover {
+  background: #0BA6A8;
+  box-shadow: 0 16px 36px rgba(0,166,166,0.45);
+  transform: translateY(-2px);
+}
+
+.home-hero-section .home-hero-btn-secondary {
+  background: rgba(255,255,255,0.12);
+  color: var(--text-light);
+  border: 2px solid rgba(255,255,255,0.6);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.home-hero-section .home-hero-btn-secondary:hover {
+  background: rgba(255,255,255,0.2);
+  border-color: rgba(255,255,255,0.8);
+  transform: translateY(-2px);
+}
+
+/* Bottom Wave Divider */
+.home-hero-section .home-hero-divider-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.home-hero-section .home-hero-divider-wrapper svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .home-hero-section {
+    min-height: 100vh;
+    padding-top: 100px;
+    padding-bottom: 80px;
+  }
+  
+  .home-hero-section .home-hero-content {
+    padding: 0 16px;
+  }
+  
+  .home-hero-section h1 {
+    font-size: 40px;
+    line-height: 1.15;
+    margin-bottom: 20px;
+  }
+  
+  .home-hero-section h3 {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 32px;
+  }
+  
+  .home-hero-section .home-hero-cta-group {
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 32px;
+  }
+  
+  .home-hero-section .home-hero-btn {
+    width: 100%;
+    max-width: 280px;
+    padding: 14px 28px;
+    font-size: 15px;
+  }
+  
+  .home-hero-section .home-hero-orb-1 {
+    width: 300px;
+    height: 300px;
+    top: -50px;
+    right: -50px;
+  }
+  
+  .home-hero-section .home-hero-orb-2 {
+    width: 250px;
+    height: 250px;
+    bottom: 5%;
+    left: -50px;
+  }
+  
+  .home-hero-section .home-hero-divider-wrapper {
+    height: 80px;
+  }
+}
+
+/* Tablet */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .home-hero-section h1 {
+    font-size: 52px;
+  }
+  
+  .home-hero-section h3 {
+    font-size: 18px;
+  }
+}
+
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
 /* High-specificity rules to ensure RTL positioning wins over any [lang="en"] conflicts */
 /* For RTL sites: hamburger on RIGHT, phone on LEFT (mirror of LTR layout) */
