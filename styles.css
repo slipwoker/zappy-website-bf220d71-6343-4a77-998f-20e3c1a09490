@@ -8930,6 +8930,198 @@ body.accessibility-widget-visible ._access-menu {
   }
 }
 
+/* ═══════════════════════════════════════════════════════════
+   V2 REGENERATED SECTION CSS (בית-hero)
+   Added: 2026-02-21T09:25:19.736Z
+   ═══════════════════════════════════════════════════════════ */
+.smartbubble-hero-section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: visible;
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 120px;
+}
+
+.smartbubble-hero-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+.smartbubble-hero-scrim {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: 
+    radial-gradient(circle at 30% 40%, rgba(0,166,166,0.18) 0%, transparent 50%),
+    radial-gradient(circle at 70% 60%, rgba(233,30,140,0.15) 0%, transparent 50%),
+    linear-gradient(180deg, rgba(27,31,59,0.25) 0%, rgba(27,31,59,0.75) 60%, rgba(27,31,59,0.92) 100%);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.smartbubble-hero-content {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+  text-align: center;
+}
+
+.smartbubble-hero-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.smartbubble-hero-section h1 {
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 64px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  color: var(--text-light);
+  margin: 0 0 24px 0;
+  text-shadow: 0 4px 16px rgba(0,0,0,0.4);
+}
+
+.smartbubble-hero-section h3 {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.6;
+  color: rgba(255,255,255,0.92);
+  margin: 0 0 40px 0;
+  max-width: 700px;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+.smartbubble-hero-cta-group {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 48px;
+}
+
+.smartbubble-btn-primary {
+  display: inline-block;
+  background: linear-gradient(135deg, #00BFA6 0%, #00A6A6 100%);
+  color: var(--text-light);
+  padding: 16px 40px;
+  border-radius: 999px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  box-shadow: 0 12px 28px rgba(0,166,166,0.35), inset 0 1px 0 rgba(255,255,255,0.25);
+  transition: transform 220ms cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 220ms cubic-bezier(0.2, 0.8, 0.2, 1);
+  border: 0;
+}
+
+.smartbubble-btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 36px rgba(0,166,166,0.45), inset 0 1px 0 rgba(255,255,255,0.25);
+}
+
+.smartbubble-btn-secondary {
+  display: inline-block;
+  background: rgba(255,255,255,0.12);
+  color: var(--text-light);
+  padding: 16px 40px;
+  border-radius: 999px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  border: 1.5px solid rgba(255,255,255,0.4);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition: transform 220ms cubic-bezier(0.2, 0.8, 0.2, 1), background-color 220ms cubic-bezier(0.2, 0.8, 0.2, 1), border-color 220ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.smartbubble-btn-secondary:hover {
+  transform: translateY(-3px);
+  background: rgba(255,255,255,0.18);
+  border-color: rgba(255,255,255,0.6);
+}
+
+.smartbubble-hero-divider-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.smartbubble-hero-divider-wrapper svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .smartbubble-hero-section {
+    min-height: 100vh;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  .smartbubble-hero-content {
+    padding: 0 16px;
+  }
+  
+  .smartbubble-hero-section h1 {
+    font-size: 40px;
+    line-height: 1.15;
+    margin-bottom: 20px;
+  }
+  
+  .smartbubble-hero-section h3 {
+    font-size: 17px;
+    line-height: 1.55;
+    margin-bottom: 32px;
+  }
+  
+  .smartbubble-hero-cta-group {
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 36px;
+  }
+  
+  .smartbubble-btn-primary,
+  .smartbubble-btn-secondary {
+    width: 100%;
+    max-width: 320px;
+    padding: 14px 32px;
+    font-size: 15px;
+  }
+  
+  .smartbubble-hero-divider-wrapper {
+    height: 80px;
+  }
+}
+
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
 /* High-specificity rules to ensure RTL positioning wins over any [lang="en"] conflicts */
 /* For RTL sites: hamburger on RIGHT, phone on LEFT (mirror of LTR layout) */

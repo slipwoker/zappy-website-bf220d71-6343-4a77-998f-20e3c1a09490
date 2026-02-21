@@ -30,6 +30,197 @@
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.smartbubble-hero-section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: visible;
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 120px;
+}
+
+.smartbubble-hero-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+.smartbubble-hero-scrim {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: 
+    radial-gradient(circle at 30% 40%, rgba(0,166,166,0.18) 0%, transparent 50%),
+    radial-gradient(circle at 70% 60%, rgba(233,30,140,0.15) 0%, transparent 50%),
+    linear-gradient(180deg, rgba(27,31,59,0.25) 0%, rgba(27,31,59,0.75) 60%, rgba(27,31,59,0.92) 100%);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.smartbubble-hero-content {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+  text-align: center;
+}
+
+.smartbubble-hero-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.smartbubble-hero-section h1 {
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 64px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  color: var(--text-light);
+  margin: 0 0 24px 0;
+  text-shadow: 0 4px 16px rgba(0,0,0,0.4);
+}
+
+.smartbubble-hero-section h3 {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.6;
+  color: rgba(255,255,255,0.92);
+  margin: 0 0 40px 0;
+  max-width: 700px;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+.smartbubble-hero-cta-group {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 48px;
+}
+
+.smartbubble-btn-primary {
+  display: inline-block;
+  background: linear-gradient(135deg, #00BFA6 0%, #00A6A6 100%);
+  color: var(--text-light);
+  padding: 16px 40px;
+  border-radius: 999px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  box-shadow: 0 12px 28px rgba(0,166,166,0.35), inset 0 1px 0 rgba(255,255,255,0.25);
+  transition: transform 220ms cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 220ms cubic-bezier(0.2, 0.8, 0.2, 1);
+  border: 0;
+}
+
+.smartbubble-btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 36px rgba(0,166,166,0.45), inset 0 1px 0 rgba(255,255,255,0.25);
+}
+
+.smartbubble-btn-secondary {
+  display: inline-block;
+  background: rgba(255,255,255,0.12);
+  color: var(--text-light);
+  padding: 16px 40px;
+  border-radius: 999px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  border: 1.5px solid rgba(255,255,255,0.4);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition: transform 220ms cubic-bezier(0.2, 0.8, 0.2, 1), background-color 220ms cubic-bezier(0.2, 0.8, 0.2, 1), border-color 220ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.smartbubble-btn-secondary:hover {
+  transform: translateY(-3px);
+  background: rgba(255,255,255,0.18);
+  border-color: rgba(255,255,255,0.6);
+}
+
+.smartbubble-hero-divider-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.smartbubble-hero-divider-wrapper svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .smartbubble-hero-section {
+    min-height: 100vh;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  .smartbubble-hero-content {
+    padding: 0 16px;
+  }
+  
+  .smartbubble-hero-section h1 {
+    font-size: 40px;
+    line-height: 1.15;
+    margin-bottom: 20px;
+  }
+  
+  .smartbubble-hero-section h3 {
+    font-size: 17px;
+    line-height: 1.55;
+    margin-bottom: 32px;
+  }
+  
+  .smartbubble-hero-cta-group {
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 36px;
+  }
+  
+  .smartbubble-btn-primary,
+  .smartbubble-btn-secondary {
+    width: 100%;
+    max-width: 320px;
+    padding: 14px 32px;
+    font-size: 15px;
+  }
+  
+  .smartbubble-hero-divider-wrapper {
+    height: 80px;
+  }
+}
+</style>
 <!-- Zappy Analytics -->
 <script>
 (function() {
@@ -352,27 +543,29 @@
   
   
   <main>
-    <section class="home-hero-section" data-layout-spec="בית-hero" data-hero-type="fullscreen-scrim" id="zappy-section-0">
-  <div class="home-hero-bg-wrapper">
-    <div data-zappy-zoom-wrapper="true" data-element-id="img-1771665228548-jfko9clwm" data-element-type="image" data-zappy-zoom-wrapper-width="901px" data-zappy-zoom-wrapper-height="972px" data-zappy-zoom-wrapper-width-mode="full" style="position: absolute !important; overflow: hidden !important; width: 100% !important; max-width: none !important; margin-left: 0px !important; margin-right: 0px !important; height: 100% !important; display: block !important; top: 0px !important; left: 0px !important; z-index: 1 !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true"><img data-hero-bg="true" data-placeholder="home-hero-bg" data-context="Luxury wellness magazine cover aesthetic: elegant wellness product (sleek bottle or jar) positioned on smooth natural stone surface with soft botanical elements (eucalyptus leaves, delicate flowers) and gentle water reflections. Airy studio lighting with soft depth-of-field blur. Color palette: soft aqua-teal tones, warm cream accents, natural stone grays. Clean, minimal, high-end health magazine photography style. Professional product photography with editorial sophistication." width="1920" height="1080" src="/assets/business-general-hero-upload-1771665487228.webp" alt="smartbubble - אוסף בריאות ואיכות חיים" class="home-hero-bg-image zappy-editable-image" data-element-type="image" data-element-id="img-1771665228548-jfko9clwm" style="object-position: 78% 0%; object-fit: cover !important; width: 100% !important; height: 117.500445% !important; margin: 0px !important; position: absolute !important; left: 0% !important; top: 0% !important; max-width: none !important; max-height: none !important; display: block !important;" data-zappy-zoom="1" data-zappy-original-width="901" data-zappy-original-height="972" data-resize-handler-attached="true"></div>
-  </div>
+    <section class="smartbubble-hero-section" data-layout-spec="בית-hero" data-hero-type="fullscreen-scrim" data-zappy-section="true">
+  <!-- Background Image Layer -->
+  <div class="smartbubble-hero-bg" style="background-image: url('assets/business-general-hero-upload-1771665487228.webp');  background-size: cover; background-position: center;"></div>
   
-  <div class="home-hero-scrim" aria-hidden="true"></div>
+  <!-- Gradient Scrim Overlay -->
+  <div class="smartbubble-hero-scrim"></div>
   
-  <div class="home-hero-overlay-group">
-    <div class="home-hero-content-wrapper">
-      <h1 class="home-hero-h1">בריאות כאוסף<br>מעוצב של רגעים</h1>
-      <h3 class="home-hero-h3">בהירות, איזון וטקסים יומיומיים שמעצבים את הרווחה שלך</h3>
-      <div class="home-hero-cta-row">
-        <a href="/contact" class="home-hero-btn home-hero-btn-primary" data-element-type="button" data-element-id="btn-1771665228541-qtlvtzq8i" data-native-element="true">דברו איתנו</a>
-        <a href="/collection" class="home-hero-btn home-hero-btn-secondary" data-element-type="button" data-element-id="btn-1771665228541-lh3cp9r5q" data-native-element="true">גלו את האוסף</a>
+  <!-- Content Overlay -->
+  <div class="smartbubble-hero-content">
+    <div class="smartbubble-hero-container">
+      <h1>בריאות כאוסף<br>מעוצב של רגעים</h1>
+      <h3>בהירות, איזון וטקסים יומיומיים שמעצבים את הרווחה שלך</h3>
+      <div class="smartbubble-hero-cta-group">
+        <a href="/contact" class="smartbubble-btn-primary">דברו איתנו</a>
+        <a href="/collection" class="smartbubble-btn-secondary">גלו את האוסף</a>
       </div>
     </div>
   </div>
   
-  <div class="home-hero-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,80 L0,48 Q60,42 120,48 T240,45 Q300,48 360,42 T480,48 Q540,45 600,42 T720,48 Q780,45 840,42 T960,48 Q1020,45 1080,42 T1200,48 L1200,80 Z" fill="#FBFBFF"></path>
+  <!-- Bottom Wave Divider -->
+  <div class="smartbubble-hero-divider-wrapper">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1440 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,120 L0,60 Q120,45 240,55 T480,50 Q600,55 720,45 T960,55 Q1080,50 1200,55 T1440,60 L1440,120 Z" fill="var(--bg-light)"></path>
     </svg>
   </div>
 </section>
